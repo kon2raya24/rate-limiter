@@ -1,0 +1,38 @@
+{
+  "name": "rate-limiter",
+  "version": "1.0.0",
+  "description": "In-memory rate limiter \u2014 sliding window and token bucket",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "rate-limiter",
+    "throttle",
+    "token-bucket",
+    "sliding-window",
+    "typescript",
+    "utilities"
+  ],
+  "author": "kon2raya",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kon2raya24/rate-limiter.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vitest": "^3.0.0"
+  }
+}
