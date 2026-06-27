@@ -19,3 +19,11 @@ npm install rate-limiter
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'rate-limiter';
+// See API section for available functions
+```
